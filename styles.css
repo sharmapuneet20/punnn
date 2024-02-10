@@ -20,6 +20,8 @@
     padding-right: 5px ;
     background: rgb(94, 126, 177);
     background: linear-gradient(90deg, rgb(138, 175, 236) 0%, rgb(168, 148, 198) 65%, rgb(177, 188, 247) 100%);
+    
+  
   
 
 }
@@ -40,6 +42,7 @@
     display: block;
     /* text-align: center; */
     padding-left: 5px ;
+
     
 }
 
@@ -48,6 +51,7 @@
 .navbar a:hover{
     font-weight: bolder;
     transition: font-weight 0.3s ease;
+
 }
 .navbar li{
     float: right;
@@ -75,6 +79,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 
@@ -85,6 +90,7 @@ main{
     display: flex;
     justify-content: right;
     align-items: center;
+    flex-direction: row;
 }
 
 .img{
@@ -99,12 +105,13 @@ main{
  p{
     text-decoration: wavy;
     font-size: larger;
-    color: black;
+    color: rgb(255, 255, 255);
     size: 30px;
+    font-style: italic;
 
  }
  .introname{
-    font-size: 280%;
+    font-size: 260%;
  }
  .introname p:hover{
            font-weight: bold;
@@ -117,6 +124,11 @@ main{
         width: 100px;
     }
 }
+
+
+
+
+
     
 
 
