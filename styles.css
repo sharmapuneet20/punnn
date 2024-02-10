@@ -1,49 +1,61 @@
+ body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    background: rgb(48,80,133);
+    background: linear-gradient(90deg, rgba(48,80,133,1) 0%, rgba(170,137,220,1) 65%, rgba(168,183,254,1) 100%);
+ }
 *{
     margin: 0px;
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 .navbar ul{
-    background-color: rgb(208, 208, 208);
+    /* background-color: rgb(208, 208, 208); */
     width: 100%;
     height: 50%;
     color: whitesmoke;
     overflow: hidden;
     padding-right: 5px ;
+    background: rgb(94, 126, 177);
+    background: linear-gradient(90deg, rgb(138, 175, 236) 0%, rgb(168, 148, 198) 65%, rgb(177, 188, 247) 100%);
   
 
 }
 .name {
     background-color: rgb(208, 208, 208);
     display: block;
-    color: rgb(10, 10, 10);
+    color: rgb(175, 169, 169);
     float: left;
+
 
 }
 
 
 .navbar  a{
     text-decoration: none;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     padding: 20px;
     display: block;
     /* text-align: center; */
     padding-left: 5px ;
+    
 }
 
 
 
 .navbar a:hover{
-    font-weight: bold;
+    font-weight: bolder;
     transition: font-weight 0.3s ease;
 }
 .navbar li{
     float: right;
+
 }
 main{
-    background-color: red;
+    background: rgb(48,80,133);
+    background: linear-gradient(90deg, rgba(48,80,133,1) 0%, rgba(170,137,220,1) 65%, rgba(168,183,254,1) 100%);
 }
 
 /* box */
@@ -54,41 +66,50 @@ main{
     height: 100vh;
     flex-direction: row;
 }
-.page1{
+.page1_name{
   
-    color: red;
+   
     width: 750px;
     height: 750px;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
-h2{
-    
-    display: flex;
-    size: 50px;
-  
-}
 
-.page2{
-    color: rgb(104, 192, 17);
+
+.page1_intro{
     width: 750px;
     height: 750px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     justify-content: right;
-    /* align-items: center; */
+    align-items: center;
 }
 
-.left{
-    color: blue;
-}
+.img{
+     width: 600px;
+     height: 600px;
+     align-items: center;
+     border-radius: 50%;
 
-.right{
+    }
 
-}
 
+ p{
+    text-decoration: wavy;
+    font-size: larger;
+    color: black;
+    size: 30px;
+
+ }
+ .introname{
+    font-size: 20%;
+ }
+ .introname p:hover{
+           font-weight: bold;
+           transition: font-weight  0.3s ease-in;
+ }
 
 
 @media screen and (max-width: 600px){
