@@ -1,7 +1,6 @@
  body{
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-    background: rgb(48,80,133);
-    background: linear-gradient(90deg, rgba(48,80,133,1) 0%, rgba(170,137,220,1) 65%, rgba(168,183,254,1) 100%);
+    
  }
 *{
     margin: 0px;
@@ -63,13 +62,18 @@ main{
 }
 
 /* box */
-main{
+.hero{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     flex-direction: row;
+    background: rgb(48,80,133);
+    background: linear-gradient(90deg, rgba(48,80,133,1) 0%, rgba(170,137,220,1) 65%, rgba(168,183,254,1) 100%);
 }
+
+
 .page1_name{
   
    
@@ -117,6 +121,21 @@ main{
            font-weight: bold;
            transition: font-weight  0.3s ease-in;
  }
+
+ .project_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     align-content: center;
+     font-weight: bolder;
+     font-size: 45px;
+ }
+
+ .page2{
+     /* display: flex; */
+     background-color: bisque;
+ }
+
 
 
 @media screen and (max-width: 600px){
