@@ -18,7 +18,7 @@
     overflow: hidden;
     padding-right: 5px ;
     background: rgb(94, 126, 177);
-    background: linear-gradient(90deg, rgb(138, 175, 236) 0%, rgb(168, 148, 198) 65%, rgb(177, 188, 247) 100%);
+    background-image: linear-gradient(74deg,#4568dc,#b06ab3);
     
   
   
@@ -133,8 +133,64 @@ main{
 
  .page2{
      /* display: flex; */
-     background-color: bisque;
+     background-color: whitesmoke;
  }
+
+
+ .project_box1{
+
+  
+ }
+
+
+
+ .project1{
+    height: 50vh;
+    width: 50%;
+    
+ }
+ .sub_heading{
+    color: black;
+ }
+
+ .doctorsite_info{
+    color: black;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .notice{
+    color: black;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+ .project2{
+    height: 50vh;
+    width: 50%;
+    
+ }
+ .sub_heading2{
+    color: black;
+ }
+
+ .brainflix_info{
+    color: black;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .notice2{
+    color: black;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+
+ 
+
 
 
 
