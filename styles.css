@@ -60,8 +60,9 @@
 
 }
 main{
-    background: rgb(48,80,133);
-    background: linear-gradient(90deg, rgba(48,80,133,1) 0%, rgba(170,137,220,1) 65%, rgba(168,183,254,1) 100%);
+    /* background: rgb(48,80,133);
+    background: linear-gradient(90deg, rgba(48,80,133,1) 0%, rgba(170,137,220,1) 65%, rgba(168,183,254,1) 100%); */
+    background-color: whitesmoke;
 }
 
 /* box */
@@ -160,6 +161,8 @@ main{
     color: black;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
  }
 
  .notice{
@@ -182,6 +185,8 @@ main{
     color: black;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
  }
 
  .notice2{
@@ -196,6 +201,44 @@ main{
     padding: 20px;
     margin-inline: 20px;
  }
+
+ .page3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 100vh;
+    background-color: whitesmoke;
+
+ }
+
+ .heading_about_me{
+    color: black;
+    display: flex;
+    align-items: center;
+     align-content: center;
+     justify-content: center;
+     font-weight: bolder;
+     font-size: 45px;
+
+ }
+
+ .aboutimage{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    border-radius: 5%;
+
+ }
+
+ .aboutme_info{
+    color: black;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
+ }
+
 
 
 
