@@ -1,5 +1,5 @@
  body{
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    /* font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif; */
     
  }
 *{
@@ -141,20 +141,18 @@ main{
  }
 
 
- .project_box1{
-
-  
- }
 
 
 
- .project1{
-    height: 50vh;
-    width: 50%;
-    
+ .project1_img{
+     width: 90%;
+     height: 40vh;
  }
  .sub_heading{
     color: black;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
  }
 
  .doctorsite_info{
@@ -162,23 +160,27 @@ main{
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2rem;
-    line-height: 1.7;
+    line-height: 1.2;
  }
 
- .notice{
+
+ .notice1{
     color: black;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
  }
 
 
- .project2{
-    height: 50vh;
+ .project2_img{
+    height: 40vh;
     width: 50%;
     
  }
  .sub_heading2{
     color: black;
+
  }
 
  .brainflix_info{
@@ -186,20 +188,23 @@ main{
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2rem;
-    line-height: 1.7;
+    line-height: 1.2;
  }
 
  .notice2{
     color: black;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
  }
 
  .projects{
     display: flex;
-    flex-direction: row;
-    padding: 20px;
-    margin-inline: 20px;
+    flex-direction: row-reverse;
+    padding: 100px;
+    margin: 20px;
+
 
  }
 
@@ -253,6 +258,23 @@ main{
  .footer_heading{
    text-align: center;
  }
+
+ .logos{
+   display: flex;
+    flex-direction: row;
+ }
+
+ .react{
+   width: 20px;
+   height: 20px;
+ }
+ .node{
+   width: 20px;
+   height:20px;
+}
+   
+ 
+
 
   
   
