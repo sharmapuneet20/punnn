@@ -257,21 +257,89 @@ main{
 
  .footer_heading{
    text-align: center;
+   font-size: 3rem;
+    margin-bottom: 3rem;
  }
 
  .logos{
    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 7px;
+
+    
  }
 
  .react{
-   width: 20px;
-   height: 20px;
+   width: 70px;
+   height: 70px;
+   margin-right: 3rem;
+   border-radius: 50%;
+
  }
  .node{
-   width: 20px;
-   height:20px;
+   width: 70px;
+   height: 70px;
+   margin-right: 3rem;
+   border-radius: 50%;
+
+
 }
+ .css{
+   width: 70px;
+   height: 70px;
+   margin-right: 3rem;
+   border-radius: 50%;
+
+   
+   
+
+
+ }
+.express{
+   /* /* width: 80px; */
+   height: 70px; 
+   margin-right: 3rem;
+   border-radius: 50%;
+
+
+}
+
+.mysql{
+   width: 70px;
+   height: 70px;
+   margin-right: 3rem;
+   border-radius: 50%;
+
+}
+.contact_info{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-right: 3px;
+}
+
+
+
+   p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+  .gmail{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  }
+
+  
+
    
  
 
